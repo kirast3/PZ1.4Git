@@ -1,0 +1,222 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Verdana;
+}
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+section{
+  /*overflow: auto;*/
+}
+
+header{
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #71c9ce;
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+  color: #0e7a8a;
+
+}
+h1, h4, h3,h2{
+  color: #0e7a8a;
+
+}
+.head{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.autorization{
+  width: 250px;
+  margin-top: 27px;
+  /*padding-top: 25px;*/
+}
+
+.auto{
+
+  margin-left: 50px;
+}
+
+hr{
+  height: 3px;
+  background-color: #cbf1f5;
+  border-color: #cbf1f5;
+}
+
+body{
+  background-color: #e3fdfd;
+}
+
+.book{
+  display: flex;
+  margin-top:60px ;
+  border-top:3px solid #cbf1f5;
+  border-bottom:3px solid #cbf1f5;
+}
+.des{
+  text-align: left;
+  margin-top: 5px;
+}
+
+.photo{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.description{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: end;
+}
+
+.detalis{
+  margin-right: 100px;
+  display: flex;
+  text-align: left;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+footer{
+  width: 100%;
+  background-color: #a6e3e9;
+}
+.foo1 {
+  font-size: 8px;
+  padding-top: 15px;
+  margin-right: auto;
+  margin-left: auto ;
+  text-align: center;
+}
+
+.foo2 {
+  font-size: 8px;
+  /*margin-top: 5px;*/
+  padding-bottom: 15px;
+
+  margin-right: auto;
+  margin-left: auto ;
+  text-align: center;
+}
+
+.log{
+  margin-top: 100px;
+  margin-top: 100px;
+  border-style: solid;
+  border-color: #cbf1f5;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.headlog{
+  width: 100%;
+  background-color: #71c9ce;
+  height: 30px;
+  display: grid;
+}
+.login{
+
+  margin-left: 20px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+input{
+
+}
+
+.user{
+  margin-top: 10px;
+}
+
+.pass{
+  margin-top: 10px;
+}
+
+.button{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sign{
+  justify-self: center;
+  align-self: center;
+  color: #0e7a8a;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#sub{
+  border-radius: 5px;
+  background-color: #0e7a8a;
+  border: none;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.books{
+  display: flex;
+  font-size: 10px;
+}
+
+.content{
+  padding-top: 5px ;
+  padding-left: 5px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.myname{
+  text-align: right;
+}
+
+.bookinfo{
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+  display: flex;
+}
+
+.author{
+  display: flex;
+  font-size: 10px;
+}
+
+.inbook{
+  margin-left: 20px;
+  text-indent: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contents{
+  margin: 15px;
+  font-size: 18px;
+}
+.contents h3{
+  margin-top: 4px;
+  margin-left: 10px;
+}
